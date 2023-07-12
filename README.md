@@ -36,7 +36,7 @@ uvicorn app.main:app --reload
 The project follows the following directory structure:
 
 
-.
+``````
 ├── app
 │ ├── crud
 │ ├── db
@@ -45,6 +45,7 @@ The project follows the following directory structure:
 │ └── main.py
 ├── .gitignore
 └── requirements.txt
+``````
 
 
 - The `app` directory contains the different modules of the application.
